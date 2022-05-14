@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="color-change">
+      <div style="text-align: center">
+        <img
+          src="Imagenes/Bitcoin-Logo.png"
+          class="img-fluid"
+          alt="..."
+          width="150px"
+        />
+        <div>
+          <h1>CryptoFans</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light search-bar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">¿Quiénes somos?</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="https://www.tradingview.com/chart/?symbol=BITSTAMP%3ABTCUSD"
+                    >Precio en tiempo real</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Compra P2P</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Referidos</a>
+                </li>
+              </ul>
+
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Comprar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#tituloBTC">BTC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tituloETH">ETH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tituloUSDT">USDT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tituloDAI">DAI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <br /><br />
+      </div>
+      <h2>¿Cuáles son tus preferencias?</h2>
+      <br />
+      <form id="formulario" style="width: 100%">
+        <select class="form-select" aria-label="Default select example">
+          <option id="datos" value="Bitcoin">Bitcoin</option>
+          <option id="datos" value="Ethereum">Ethereum</option>
+          <option id="datos" value="USDT">USDT</option>
+          <option value="DAI">DAI</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option value="Bitcoin">Bitcoin</option>
+          <option value="Ethereum">Ethereum</option>
+          <option value="USDT">USDT</option>
+          <option value="DAI">DAI</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option value="Bitcoin">Bitcoin</option>
+          <option value="Ethereum">Ethereum</option>
+          <option value="USDT">USDT</option>
+          <option value="DAI">DAI</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option value="Bitcoin">Bitcoin</option>
+          <option value="Ethereum">Ethereum</option>
+          <option value="USDT">USDT</option>
+          <option value="DAI">DAI</option>
+        </select>
+        <input type="reset" style="background-color: red; color: white" />
+        <input type="submit" style="background-color: green; color: white" />
+      </form>
+      <br />
+      <br />
+      <h3 id="tituloBTC">BTC</h3>
+      <p id="respuestaBTC" type="button">Click</p>
+      <br />
+      <h3 id="tituloETH">ETH</h3>
+      <p id="respuestaETH" type="button">Click</p>
+      <br />
+      <h3 id="tituloUSDT">USDT</h3>
+      <p id="respuestaUSDT" type="button">Click</p>
+      <br />
+      <h3 id="tituloDAI">DAI</h3>
+      <p id="respuestaDAI" type="button">Click</p>
+    </div>
+
+    <div>
+      <a id="btn" class="letra" type="button" style="text-align: left">
+        Click aquí para ver tus preferencias
+      </a>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/miarchivo3.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

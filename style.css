@@ -1,0 +1,55 @@
+body {
+  background-color: oldlace !important;
+}
+
+.imagen-logo {
+  width: 8rem;
+  height: 5rem;
+  text-align: ;
+}
+
+.container {
+  width: 100% !important;
+  height: auto;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 100px !important;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: azure;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding-top: 40px !important;
+  border-radius: 70%;
+  border-style: solid;
+}
+
+.color-change {
+  background-color: rgb(250, 229, 190) !important;
+}
+
+.cambio-letra {
+  font-size: 20px;
+}
+
+.search-bar {
+  border-style: solid;
+}
+
+.opcionesCripto {
+  border-radius: 24px 24px 0 0 !important;
+}
+
+.letra {
+  font-size: 20px;
+}
+
+.tamaño-tabla {
+  min-width: 10px !important;
+  max-width: 10px !important;
+}
