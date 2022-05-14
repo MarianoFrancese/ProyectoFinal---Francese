@@ -1,0 +1,32 @@
+[
+  {
+    "Anunciante": "ArgenTop",
+    "Precio": "201.99 ARS",
+    "Disponible": "251.69614328 DAI",
+    "Pago": "Lemon Cash/ Ualá/ Banco Brubank/ Mercadopago"
+  },
+  {
+    "Anunciante": "WorldUnited",
+    "Precio": "203.50 ARS",
+    "Disponible": "141.94127214 DAI",
+    "Pago": "Mercadopago/ Transferencia bancaria/ Ualá/ Banco Brubank"
+  },
+  {
+    "Anunciante": "Emeosedo",
+    "Precio": "203.60 ARS",
+    "Disponible": "156.29370629 DAI",
+    "Pago": "Ualá"
+  },
+  {
+    "Anunciante": "emitu77",
+    "Precio": "203.61 ARS",
+    "Disponible": "68.88137857 DAI",
+    "Pago": "Mercadopago/ Banco Brubank/ Ualá/ Lemon Cash"
+  },
+  {
+    "Anunciante": "Matuka",
+    "Precio": "203.65 ARS",
+    "Disponible": "2,000.39109289 DAI",
+    "Pago": "Mercadopago/ Transferencia bancaria"
+  }
+]

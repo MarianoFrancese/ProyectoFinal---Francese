@@ -1,0 +1,32 @@
+[
+  {
+    "Anunciante": "Miguel Ríos",
+    "Precio": "190.00 ARS",
+    "Disponible": "499.60 USDT",
+    "Pago": "Efectivo en persona"
+  },
+  {
+    "Anunciante": "Crypto20",
+    "Precio": "200.00 ARS",
+    "Disponible": "750.44 USDT",
+    "Pago": "Efectivo en persona"
+  },
+  {
+    "Anunciante": "Mithos967",
+    "Precio": "200.00 ARS",
+    "Disponible": "106.36 USDT",
+    "Pago": "Depósito en efectivo"
+  },
+  {
+    "Anunciante": "andyp2p",
+    "Precio": "200.48 ARS",
+    "Disponible": "10.93 USDT",
+    "Pago": "Banco Brubank/ Ualá"
+  },
+  {
+    "Anunciante": "cripto-coi",
+    "Precio": "200.57 ARS",
+    "Disponible": "50.99 USDT",
+    "Pago": "Mercadopago"
+  }
+]
